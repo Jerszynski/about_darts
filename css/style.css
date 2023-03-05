@@ -30,3 +30,13 @@ html {
   margin: 20px;
   border: 1px solid black;
 }
+
+.span {
+  color: #3030ff;
+}
+
+.button {
+  color: #000000;
+  padding: 10px;
+  border-radius: 10px;
+}
