@@ -1,0 +1,31 @@
+.navigation {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom-right-radius: 8px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.navigation__item {
+  display: inline-block;
+  padding: 6px;
+  font-size: 14px;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: #000;
+}
+
+.navigationLink:hover {
+  text-decoration: underline;
+}
+
+
+git commit -m "Add navigation.css and add styling. Remove button. Clear script.js"
