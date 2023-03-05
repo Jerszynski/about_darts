@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.body {
+  background-color: #fafafa;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px 40px;
+  text-align: justify;
+}
