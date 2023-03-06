@@ -1,0 +1,20 @@
+.darkModeContainer {
+  max-width: 1000px;
+  margin: 50px auto 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.darkModeContainer__button {
+  font-family: "Rubik", sans-serif;
+  padding: 12px;
+  border-radius: 20px;
+  border: 1px solid rgba(124, 124, 124, 0.5);
+  background-color: #fafafa;
+}
+
+.darkModeButton {
+  background-color: rgba(100, 100, 100, 0.5);
+  color: #fff;
+  border: 1px solid #404040;
+}
