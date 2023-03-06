@@ -1,0 +1,25 @@
+.section {
+  padding: 20px 0;
+}
+
+.section__header {
+  margin: 0;
+}
+
+.section__imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.section__image {
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.section__importantBlue {
+  color: #3030ff;
+}
+
+.section--bottomLine {
+  border-bottom: 1px solid black;
+}
