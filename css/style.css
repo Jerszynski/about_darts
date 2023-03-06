@@ -24,3 +24,10 @@ html {
   box-shadow: 1px 1px 20px #dddddd;
   border-radius: 8px;
 }
+
+.footer {
+  max-width: 1000px;
+  margin: 10px auto 50px;
+  display: flex;
+  justify-content: center;
+}
