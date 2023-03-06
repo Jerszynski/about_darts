@@ -1,0 +1,23 @@
+@media (max-width: 650px) {
+  .navigation {
+    text-align: right;
+  }
+
+  .mainContainer {
+    margin: 0 10px;
+  }
+
+  .pageMainHeader {
+    text-align: left;
+  }
+
+  .section__imageContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section_image {
+    height: 180px;
+    width: 250px;
+  }
+}
