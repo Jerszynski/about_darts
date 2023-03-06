@@ -12,13 +12,17 @@ html {
   background-color: #fafafa;
 }
 
-.container {
-  max-width: 1000px;
-  margin: 50px auto;
+.mainContainer {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   background-color: #fff;
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 20px 40px;
   text-align: justify;
-  border-radius: 10px;
+  box-shadow: 1px 1px 20px #dddddd;
+  border-radius: 8px;
 }
 
 .imageContainer {
@@ -29,15 +33,5 @@ html {
 .image {
   margin: 20px;
   border: 1px solid black;
-  border-radius: 10px;
-}
-
-.span {
-  color: #3030ff;
-}
-
-.button {
-  color: #000000;
-  padding: 10px;
   border-radius: 10px;
 }
