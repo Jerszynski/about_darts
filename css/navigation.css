@@ -26,8 +26,3 @@
 .navigationLink:hover {
   text-decoration: underline;
 }
-
-.mainContainer--darkMode {
-  background-color: #646464;
-  color: #fff;
-}

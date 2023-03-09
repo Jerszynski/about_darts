@@ -17,13 +17,12 @@ buttonRemoveElement.addEventListener("click", () => {
 
 darkModeButtonElement.addEventListener("click", () => {
   mainContainerElement.classList.toggle("mainContainer--darkMode");
-  mainContainerElement.classList.toggle("mainContainer--darkModeShadow");
-  bodyElement.classList.toggle("mainContainer--darkMode");
+  bodyElement.classList.toggle("body--darkMode");
   darkModeButtonElement.classList.toggle("darkModeButton");
   buttonRemoveElement.classList.toggle("darkModeButton");
 
   navigationLinkElement.forEach((link) => {
-    link.classList.toggle("mainContainer--darkMode");
+    link.classList.toggle("navigation__link--darkMode");
   });
 
   tableRowElement.forEach((row) => {

@@ -18,3 +18,19 @@
   color: #fff;
   border: 1px solid #404040;
 }
+
+.body--darkMode {
+  background-color: #646464;
+  color: #fff;
+}
+
+.mainContainer--darkMode {
+  background-color: #646464;
+  color: #fff;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.314);
+}
+
+.navigation__link--darkMode {
+  background-color: #646464;
+  color: #fff;
+}
