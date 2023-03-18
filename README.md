@@ -25,4 +25,4 @@ Welcome to my first page, where I'm showing you some basic information about Dar
 <br />
 Below you will see a short preview of my first page.
 
-<img src="images/Animation.gif" width="654" height="1086">
+<img src="images/darts-animation.gif" width="654" height="1086">
