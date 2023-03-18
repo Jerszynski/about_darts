@@ -1,6 +1,8 @@
 # About Darts
 
-#### First steps in Front end
+My first steps in Frontend development. <br>
+
+---
 
 ## DEMO
 
@@ -14,11 +16,13 @@ https://jerszynski.github.io/about_darts/
 
 ![html](https://img.icons8.com/color/48/null/html-5--v1.png) ![css](https://img.icons8.com/color/48/null/css3.png) ![js](https://img.icons8.com/color/48/null/javascript--v1.png)<br>
 BEM<br>
-Flex box<br>
+Flexbox<br>
 
 ---
 
-- Welcome to my first page on which I'm showing you some basics information about Darts. <br />
-  Also you can find one button to check my small interaction with a website.
-  <br />
-  <br />
+Welcome to my first page, where I'm showing you some basic information about Darts. Also, you can find one button to check my small interaction with a website.
+<br />
+<br />
+Below you will see a short preview of my first page.
+
+<img src="images/Animation.gif" width="654" height="1086">
