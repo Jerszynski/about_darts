@@ -14,9 +14,11 @@ https://jerszynski.github.io/about_darts/
 
 <br />
 
-![html](https://img.icons8.com/color/48/null/html-5--v1.png) ![css](https://img.icons8.com/color/48/null/css3.png) ![js](https://img.icons8.com/color/48/null/javascript--v1.png)<br>
-BEM<br>
-Flexbox<br>
+- HTML
+- BEM Convention
+- CSS
+  - Flexbox
+- JavaScript ( ES6+ )
 
 ---
 
