@@ -4,7 +4,7 @@
   );
   const toggleThemeButtonElement = document.querySelector(".js-darkModeButton");
 
-  const onButtonRemoveClick = () => {
+  const onToggleTableVisibilityButtonClick = () => {
     const tableElement = document.querySelector(".js-table");
 
     toggleTableVisibilityButtonElement.innerText =
@@ -60,7 +60,7 @@
 
     toggleTableVisibilityButtonElement.addEventListener(
       "click",
-      onButtonRemoveClick
+      onToggleTableVisibilityButtonClick
     );
   };
 
