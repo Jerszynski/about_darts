@@ -1,19 +1,19 @@
 {
-  const buttonRemoveElement = document.querySelector(
+  const toggleTableVisibilityButtonElement = document.querySelector(
     ".js-buttonTableVisibilityToggle"
   );
+  const toggleThemeButtonElement = document.querySelector(".js-darkModeButton");
 
   const onButtonRemoveClick = () => {
     const tableElement = document.querySelector(".js-table");
 
-    buttonRemoveElement.innerText = tableElement.classList.toggle(
-      "table--hidden"
-    )
-      ? "Pokaż tabelę"
-      : "Ukryj Tabelę";
+    toggleTableVisibilityButtonElement.innerText =
+      tableElement.classList.toggle("table--hidden")
+        ? "Pokaż tabelę"
+        : "Ukryj Tabelę";
   };
 
-  const navigationLinkDarkMode = () => {
+  const toggleThemeNavigationLink = () => {
     const navigationLinkElement =
       document.querySelectorAll(".js-navigationLink");
 
@@ -22,7 +22,7 @@
     });
   };
 
-  const tableRowDarkMode = () => {
+  const toggleThemeTableRow = () => {
     const tableRowElement = document.querySelectorAll(".js-tableRow");
 
     tableRowElement.forEach((row) => {
@@ -30,7 +30,7 @@
     });
   };
 
-  const tableCellDarkMode = () => {
+  const toogleThemeTableCell = () => {
     const tableCellHeaderElement = document.querySelectorAll(".js-tableHeader");
 
     tableCellHeaderElement.forEach((header) => {
@@ -38,25 +38,30 @@
     });
   };
 
-  const darkModeButtonElement = document.querySelector(".js-darkModeButton");
-  const onDarkModeButtonClick = () => {
+  const onToggleThemeButtonClick = () => {
     const mainContainerElement = document.querySelector(".js-mainContainer");
     const bodyElement = document.querySelector(".body");
 
     mainContainerElement.classList.toggle("mainContainer--darkMode");
     bodyElement.classList.toggle("body--darkMode");
-    darkModeButtonElement.classList.toggle("darkModeButton");
-    buttonRemoveElement.classList.toggle("darkModeButton");
+    toggleThemeButtonElement.classList.toggle("darkModeButton");
+    toggleTableVisibilityButtonElement.classList.toggle("darkModeButton");
 
-    navigationLinkDarkMode();
-    tableRowDarkMode();
-    tableCellDarkMode();
+    toggleThemeNavigationLink();
+    toggleThemeTableRow();
+    toogleThemeTableCell();
   };
 
   const init = () => {
-    darkModeButtonElement.addEventListener("click", onDarkModeButtonClick);
+    toggleThemeButtonElement.addEventListener(
+      "click",
+      onToggleThemeButtonClick
+    );
 
-    buttonRemoveElement.addEventListener("click", onButtonRemoveClick);
+    toggleTableVisibilityButtonElement.addEventListener(
+      "click",
+      onButtonRemoveClick
+    );
   };
 
   init();
